@@ -16,6 +16,32 @@ Let's start by creating an Azure AI Foundry project.
 
     ![Screenshot of Azure AI Foundry portal.](../media/ai-foundry-home.png)
 
+## For the New Foundry Toogle on
+1. Click on the **New Foundry** toggle to set it on
+
+1. Select **Create a new project** option and confirm.
+
+1. When prompted to create a project, enter a valid name for your project and expand **Advanced options**.
+
+1. Under the **Advanced options** specify the following settings for your project:
+    - **Microsoft Foundry resource**: *A valid name for your Microsoft Foundry resource*
+    - **Subscription**: *Your Azure subscription*
+    - **Resource group**: *Create or select a resource group*
+    - **Region**: *Select any **AI Foundry recommended***\*
+
+    > \* Some Microsoft Foundry resources are constrained by regional model quotas. In the event of a quota limit being exceeded later in the exercise, there's a possibility you may need to create another resource in a different region.
+
+    ![Screenshot of Microsoft Foundry portal.](./media/new-foundry-home-page.png)
+
+## Creating an AI service
+1. From the main page, select the **Build** link on the top of the main page.
+
+1. Then on the nav-bar on the left of the page, select **Models**
+
+1. You can find one of the tabs the option **AI services**, select and search for the **Vision + Document** tile. (NOT AVAILABLE CURRENTLY).
+...
+
+## Toggle not on for New Foundry
 1. In the home page, select **+ Create project**.
 1. In the **Create a project** wizard, enter a suitable project name for (for example, `my-ai-project`) then review the Azure resources that will be automatically created to support your project.
 1. Select **Customize** and specify the following settings for your hub:
